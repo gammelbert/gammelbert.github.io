@@ -1,4 +1,4 @@
-export default function start() {
+const Start = function () {
   const that = {};
 
   function init() {
@@ -7,4 +7,4 @@ export default function start() {
 
   that.init = init;
   return that;
-}
+};
